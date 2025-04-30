@@ -47,7 +47,7 @@ See full cleaned dataset here
 
     Age & Gender: Highest attrition among 18–25 age group, especially females (42%)
  <p align="center">
-    <img src="Overall.png" width="500" height="300">
+    <img src="AgeGender.jpg" width="500" height="300">
 </p>
     Income Level: Low-income employees account for 43% of total attrition
 
