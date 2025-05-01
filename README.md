@@ -1,50 +1,52 @@
-# HR-Attrition-Analysis
 
-📁 Project Overview
+# HR Attrition Analysis
 
-Employee attrition poses a serious challenge to organizational performance and continuity. This project explores the patterns, causes, and predictors of employee turnover using a real HR dataset. The goal is to uncover actionable insights to support strategic HR planning and improve retention.
+🎓 Certificate:
+
+This project was completed as part of the Machinfy Professional Data Analysis Course.
+
+📌 Business Task
+
+The organization is experiencing a high employee attrition rate, which impacts recruitment costs, team performance, and productivity.
+This project aims to analyze HR data to uncover key patterns, high-risk employee segments, and root causes of turnover. The insights will guide data-driven HR strategies to improve employee retention.
 
 🗄️Data Structure
+
+HR dataset provided by the instructor.
+
 Rows: 1,471 employee records
-Columns: 32 features including:
 
-  - Demographics (Age, Gender, Marital Status)
-  - Job details (Department, Job Role, Business Travel)
-  - Compensation (Monthly Income, Job Level)
-  - Work conditions (Distance from Home, Overtime, Work-Life Balance)
-  - Satisfaction and engagement metrics
-  - Attrition status
+Columns: 32 features including demographic data, work experience, distance from home, job satisfaction, involvement levels, travel frequency, income, and more.
 
-🎯 Objectives
+🧹Data Cleaning Summary
 
-   - Analyze the impact of demographic factors, work logistics, and job satisfaction on attrition
-   - Identify high-risk employee segments
-   - Provide data-driven recommendations to reduce attrition and improve employee retention
-
-🧹 Data Cleaning (Excel)
-
-  - Removed duplicates
-  - Dropped irrelevant columns (EmployeeCount, Over18, StandardHours)
-  - Confirmed absence of null values
+   - Removed duplicates
+   - Confirmed absence of missing values
+   - Dropped unnecessary columns: EmployeeCount, Over18, StandardHours
+   - Verified data types for numerical and categorical fields
+     
 Note: Dataset lacked timestamp data, limiting time-series analysis
-See full cleaned dataset here
+See full cleaned dataset [here](Clean-HR-Employee-Attrition.xlsx)
 
 🧠 Data Analysis & Visualization (Power BI)
 
-    Used Power BI to create interactive dashboards and visuals
+Used Power BI to create interactive dashboards and visuals.
 
-    DAX (Data Analysis Expressions) was used to calculate custom metrics such as:
+DAX (Data Analysis Expressions) was used to calculate custom metrics.
+    
+Created dynamic slicers for gender, job role, age group, income level, and more.
 
-       - Attrition Rate by Age Group
-       - Average Monthly Income by Department
-       - Overtime vs. Attrition Percentage
-       - Travel Frequency Impact on Attrition
-       - Satisfaction Score Impact on Retention
-       - Role-specific Attrition Ratios
-    Created dynamic slicers for gender, job role, age group, income level, and more
+📎 Interactive Dashboard
+
+Explore the full Power BI Dashboard [here](Finalproject1.pbix)
+
+ <p align="center">
+    <img src="Dashboard.png" width="600" height="300">
+</p>
 
 🔑 Key Findings
-
+  Attrition Rate: 16% overall (237 out of 1,470 employees)
+  
   Age & Gender: Highest attrition among 18–25 age group, especially females (42%)
  <p align="center">
     <img src="AgeGender.png" width="600" height="200">
@@ -67,7 +69,7 @@ See full cleaned dataset here
 
   Overtime: Employees working overtime had a 31% attrition rate vs. 10% for those who didn't
   <p align="center">
-    <img src="OvertimeGender.png" width="600" height="200">
+    <img src="Overtime.png" width="600" height="200">
 </p> 
 
  Tenure: Highest attrition among employees with either 0–10 or 31+ years at the company and employees with either 0–5 or 31+ working years.
@@ -86,4 +88,10 @@ See full cleaned dataset here
     <img src="Satisfaction.png" width="600" height="500">
  </p> 
 
+💡 Recommendations
 
+   - Focus on retaining early-career and low-income employees
+   - Revise business travel policies and support programs for traveling staff
+   - Provide support for younger employees and those with long commutes
+   - Implement employee satisfaction programs, especially for job involvement and work-life balance
+   - Create role-specific retention strategies for high-turnover positions like Sales and HR
