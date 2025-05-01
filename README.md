@@ -45,22 +45,45 @@ See full cleaned dataset here
 
 🔑 Key Findings
 
-    Age & Gender: Highest attrition among 18–25 age group, especially females (42%)
+  Age & Gender: Highest attrition among 18–25 age group, especially females (42%)
  <p align="center">
-    <img src="AgeGender.jpg" width="500" height="300">
+    <img src="AgeGender.png" width="600" height="200">
 </p>
-    Income Level: Low-income employees account for 43% of total attrition
 
-    Distance from Work: Employees living "Very Far" had a 22% attrition rate
+  Income Level: Low-income employees account for 43% of total attrition
+  <p align="center">
+    <img src="Income.png" width="600" height="200">
+</p> 
 
-    Business Travel: Frequent travelers had the highest attrition (52%)
+  Distance from Work: Employees living "Very Far" had a 22% attrition rate
+  <p align="center">
+    <img src="Distance.png" width="600" height="200">
+ </p> 
 
-    Overtime: Employees working overtime had a 31% attrition rate vs. 10% for those who didn't
+  Business Travel: Frequent travelers had the highest attrition (52%)
+  <p align="center">
+    <img src="Travel.png" width="600" height="200">
+</p> 
 
-    Job Role: Sales Representatives experienced the highest attrition (40%)
+  Overtime: Employees working overtime had a 31% attrition rate vs. 10% for those who didn't
+  <p align="center">
+    <img src="OvertimeGender.png" width="600" height="200">
+</p> 
 
-    Satisfaction Scores: Lower job involvement (34%) and work-life balance (31%) strongly correlated with higher attrition
+ Tenure: Highest attrition among employees with either 0–10 or 31+ years at the company and employees with either 0–5 or 31+ working years.
+ <p align="center">
+    <img src="Atcompany.png" width="400" height="200">
+    <img src="Workingyears.png" width="400" height="200">
+</p> 
 
-    Tenure: Highest attrition among employees with either 0–10 or 31+ years at the company
+ Job Role: Sales Representatives experienced the highest attrition (40%)
+  <p align="center">
+    <img src="Jobrole.png" width="600" height="500">
+</p> 
 
-    
+ Satisfaction Scores: Lower job involvement (34%) and work-life balance (31%) strongly correlated with higher attrition
+  <p align="center">
+    <img src="Satisfaction.png" width="600" height="500">
+ </p> 
+
+
